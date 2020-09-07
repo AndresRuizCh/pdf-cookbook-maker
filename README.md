@@ -7,12 +7,13 @@ Generates a .pdf file given a .csv or .xlsx source to create a Cookbook by autom
 To use it, just write the new recipes at the end of the .csv or .xlsx file separating the ingredients and the steps using ````;```` and run the file ```recipe.py``` using the following options:
 
 ```
-python recipe.py -l <language> -t <title> -i <ingredients> -a <author> -s <steps> '-x <tex> -d <database> -f <file>
+python recipe.py -l <language> -t <title> -i <ingredients> -a <author> -s <steps> -x <tex> -d <database> -f <file>
 ```
+Please, let the ```Image``` column blank, the program will ask for the image path and will copy and rename it in the ```./tex``` folder
 
 # Requirements 
 
-Paddington requires the following to run:
+This program requires the following to run:
 
   * [Pandas][Pandas]
   * [NumPy][NumPy] 
