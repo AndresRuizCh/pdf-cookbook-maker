@@ -8,3 +8,6 @@ __pycache__/
 *.ipynb*
 /temp.dat
 .ipynb_checkpoints/
+/tex/Recipes.aux
+/tex/Recipes.out
+/tex/Recipes.toc
